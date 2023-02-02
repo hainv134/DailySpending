@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/budget_add_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cancel"
+            android:backgroundTint="@color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="-30dp"
+            />
+
+        <TextView
+            android:id="@+id/budget_add_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:gravity="end|center"
+            android:text="Save" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/budget_add_target"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center|start"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:textColor="#F30303"
+            android:hint="Target" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_category"/>
+            <EditText
+                android:id="@+id/budget_add_category"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="Category" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_date"/>
+            <EditText
+                android:id="@+id/budget_add_startDay"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="Start Day" />
+            <EditText
+                android:id="@+id/budget_add_endDay"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="End Day" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

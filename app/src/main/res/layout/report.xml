@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/report_startDay"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="Start Day" />
+            <EditText
+                android:id="@+id/report_endDay"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="End Day" />
+
+            <ImageView
+                android:id="@+id/report_view"
+                android:paddingRight="10dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_view"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Balances"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="Begin balances"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/report_begin_balances"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Balances"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="30dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="End balances"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/report_end_balances"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="Balances"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Income and Expenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="Income"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/report_income"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="10000"
+                        android:textColor="#1C92EF"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                    <ImageButton
+                        android:id="@+id/report_view_chart_income"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_chart"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:paddingLeft="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Expenses" />
+
+                    <TextView
+                        android:textColor="#D50F52"
+                        android:id="@+id/report_expenses"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:text="10000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <ImageButton
+                        android:id="@+id/report_view_chart_expense"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_chart"/>>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:text="Final Gross"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/report_final_gross"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="1000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageButton
+                android:id="@+id/report_view_final_gross_chart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_chart"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

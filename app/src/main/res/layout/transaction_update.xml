@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/transaction_update_layout_id"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/transaction_update_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cancel"
+            android:backgroundTint="@color/white"
+            android:layout_weight="3"
+            />
+
+        <ImageButton
+            android:id="@+id/transaction_update_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete"
+            android:backgroundTint="@color/white"
+            android:layout_weight="3"
+            />
+        <ImageButton
+            android:id="@+id/transaction_update_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_save"
+            android:backgroundTint="@color/white"
+            android:layout_weight="3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/transaction_update_money"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center|start"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:textSize="25sp"
+            android:textColor="#F30303"
+            android:text="0 VND" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_category"/>
+            <EditText
+                android:id="@+id/transaction_update_category"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="Category" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_note"/>
+            <EditText
+                android:id="@+id/transaction_update_note"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="Note" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_date"/>
+            <EditText
+                android:id="@+id/transaction_update_date"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="Date" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:src="@drawable/ic_people"/>
+            <EditText
+                android:id="@+id/transaction_update_with"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:inputType="textImeMultiLine|textMultiLine"
+                android:hint="With" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_remind"/>
+            <EditText
+                android:id="@+id/transaction_update_remind"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center|start"
+                android:layout_weight="10"
+                android:paddingLeft="10dp"
+                android:hint="Set reminder" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/transaction_update_checkbox"
+            android:checked="false"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:text="Not include report"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:text="This transaction will not calculate in report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

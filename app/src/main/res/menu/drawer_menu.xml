@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_category" android:title="Category" android:icon="@drawable/ic_category"/>
+        <item android:id="@+id/nav_transaction" android:title="Transaction" android:icon="@drawable/ic_transaction"/>
+        <item android:id="@+id/nav_report" android:title="Report" android:icon="@drawable/ic_report"/>
+        <item android:id="@+id/nav_budget" android:title="Budget" android:icon="@drawable/ic_plan"/>
+
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item android:id="@+id/nav_logout" android:icon="@drawable/ic_logout" android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

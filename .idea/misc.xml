@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DailySpending/app/src/main/res/drawable-v24/ic_account.xml" value="0.1955" />
+        <entry key="..\:/DailySpending/app/src/main/res/drawable-v24/ic_delete.xml" value="0.1955" />
+        <entry key="..\:/DailySpending/app/src/main/res/drawable-v24/ic_edit.xml" value="0.1955" />
+        <entry key="..\:/DailySpending/app/src/main/res/drawable/border.xml" value="0.1955" />
+        <entry key="..\:/DailySpending/app/src/main/res/drawable/ic_chart.xml" value="0.1955" />
+        <entry key="..\:/DailySpending/app/src/main/res/drawable/ic_date.xml" value="0.1955" />
+        <entry key="..\:/DailySpending/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1955" />
+        <entry key="..\:/DailySpending/app/src/main/res/drawable/ic_money.xml" value="0.1955" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/account_layout.xml" value="0.128125" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/activity_register.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/activity_register_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/anychart_view.xml" value="0.8289473684210527" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/budget_add.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/budget_item.xml" value="0.264" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/budget_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/budget_update.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/budget_view.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/category_dialog_add.xml" value="0.25416666666666665" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/category_dialog_update.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/category_item.xml" value="0.264" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/category_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/chart.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/login.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/nav_header.xml" value="0.128125" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/register.xml" value="0.176" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/report.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/transaction_add.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/transaction_add_persion_select.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/transaction_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/transaction_layout.xml" value="0.264" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/transaction_update.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/layout/welcome_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/DailySpending/app/src/main/res/menu/actionbar_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/DailySpending/app/src/main/res/menu/drawer_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
