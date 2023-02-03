@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953265820469",
+    "project_id": "dailyspending-62c1c",
+    "storage_bucket": "dailyspending-62c1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953265820469:android:27870586aff5767d1ef27c",
+        "android_client_info": {
+          "package_name": "com.example.dailyspending"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953265820469-eaork5seg9jv931f7nljvbmf2j4j1tf5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFbbtKRVOx41t62n-_kfasOlkNp6OZ84w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953265820469-eaork5seg9jv931f7nljvbmf2j4j1tf5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
